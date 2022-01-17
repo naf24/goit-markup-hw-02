@@ -1,9 +1,5 @@
-#Format1
-node_modules/
-node/
 
-
-# Logs
+## Logs
 logs
 *.log
 npm-debug.log*
