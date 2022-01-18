@@ -135,31 +135,62 @@ li {
 }
 /* Команда */
 .hero {
-  background-color: #f5f4fa;
+  background-color: var(--backround-middle);
 }
 .hero-title {
   color: var(--title-text-color);
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.67;
+  text-align: center;
 }
 .hero-name {
   color: var(--title-text-color);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
 }
 
 /* Футер */
 .footer-body {
   background-color: var(--background-dark);
 }
+.logo-footer {
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+
+  color: var(--accent-color);
+}
+.logo-footer span {
+  color: var(--white);
+}
+
 .footer-contacts a {
   color: var(--light-grey);
+  text-decoration: none;
+  font-family: inherit;
+  font-size: 14px;
+  line-height: 1.7;
 }
 .footer-contacts .contact-adress {
   color: var(--white);
+  font-size: 14px;
+  line-height: 1.7;
 }
 /* Портфолио */
 /* Фильтр */
 .portfolio-buttons {
-  font-family: inherit;
   cursor: pointer;
+  background-color: var(--backround-middle);
+}
 
+.button-portfolio {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
